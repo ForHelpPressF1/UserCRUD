@@ -1,0 +1,11 @@
+namespace training.sshydlouski.userCRUD;
+
+@Schema: 'SSHYDLOUSKI'
+context ProcedureTypes {
+    
+ 	Type tt_errors {
+        HTTP_STATUS_CODE : Integer;
+        ERROR_MESSAGE : String(100);
+        DETAIL : String(100);
+      };    
+};

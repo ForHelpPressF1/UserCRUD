@@ -1,0 +1,11 @@
+namespace training.sshydlouski.userCRUD;
+
+@Schema: 'SSHYDLOUSKI'
+@Catalog.tableType: #COLUMN
+Entity UserDetails {
+	key PERS_NO: Integer;
+	FIRSTNAME: String(60);
+	LASTNAME: String(60);
+	E_MAIL: String(60);    
+
+};
