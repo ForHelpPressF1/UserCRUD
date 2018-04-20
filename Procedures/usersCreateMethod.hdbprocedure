@@ -7,6 +7,7 @@ OUT ex_error "SSHYDLOUSKI"."training.sshydlouski.userCRUD::ProcedureTypes.tt_err
 BEGIN
 /***************************** 
 	Write your procedure logic 
+	test
  *****************************/
  declare lv_pers_no string;
 declare lv_firstname string;
@@ -30,5 +31,5 @@ else
                      lv_lastname, lv_e_mail);
                      
  end if; 
-  
+  select 1 from dummy;
 END;
